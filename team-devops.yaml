@@ -2,10 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-devops
-  description: DevOps Team responsible for infrastructure
+  description: DevOps team responsible for CI/CD and infrastructure
 spec:
   type: team
   profile:
-    displayName: "DevOps Team"
+    displayName: DevOps Team
     email: devops@example.com
   children: []
+
