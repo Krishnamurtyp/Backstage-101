@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-nginx
+  description: "Nginx service deployed on Minikube"
+  annotations:
+    backstage.io/kubernetes-id: hello-nginx
+spec:
+  type: service
+  lifecycle: production
+  owner: team-devops
+
